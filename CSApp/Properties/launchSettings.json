@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSApp": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppApp", "CppApp\CppApp.vcxproj", "{06EAF416-4A2D-4A50-BDC4-3EE483FFD831}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCliLib", "CppCliLib\CppCliLib.vcxproj", "{374EB512-53C5-4BB9-B843-BB49CDF3E37A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSLib", "CSLib\CSLib.csproj", "{6CDF4B61-F88E-4960-A4DA-51D6270B17C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSApp", "CSApp\CSApp.csproj", "{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EAF416-4A2D-4A50-BDC4-3EE483FFD831}.Debug|x64.ActiveCfg = Debug|x64
+		{06EAF416-4A2D-4A50-BDC4-3EE483FFD831}.Debug|x64.Build.0 = Debug|x64
+		{06EAF416-4A2D-4A50-BDC4-3EE483FFD831}.Release|x64.ActiveCfg = Release|x64
+		{06EAF416-4A2D-4A50-BDC4-3EE483FFD831}.Release|x64.Build.0 = Release|x64
+		{374EB512-53C5-4BB9-B843-BB49CDF3E37A}.Debug|x64.ActiveCfg = Debug|x64
+		{374EB512-53C5-4BB9-B843-BB49CDF3E37A}.Debug|x64.Build.0 = Debug|x64
+		{374EB512-53C5-4BB9-B843-BB49CDF3E37A}.Release|x64.ActiveCfg = Release|x64
+		{374EB512-53C5-4BB9-B843-BB49CDF3E37A}.Release|x64.Build.0 = Release|x64
+		{6CDF4B61-F88E-4960-A4DA-51D6270B17C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6CDF4B61-F88E-4960-A4DA-51D6270B17C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{6CDF4B61-F88E-4960-A4DA-51D6270B17C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{6CDF4B61-F88E-4960-A4DA-51D6270B17C2}.Release|x64.Build.0 = Release|Any CPU
+		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Debug|x64.Build.0 = Debug|Any CPU
+		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Release|x64.ActiveCfg = Release|Any CPU
+		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64CCD9A6-DE58-4CCF-9E7D-3FD91DCEC6EE}
+	EndGlobalSection
+EndGlobal
