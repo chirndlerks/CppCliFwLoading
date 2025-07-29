@@ -1,17 +1,16 @@
 #include <iostream>
-#include "..\CppCliLib1\Test.h"
-#include "..\CppCliLib2\Test.h"
+#include "..\CppCliLoader\Test.h"
 #include <string>
 
 int main() {
 
 	// multiple ALC test
 	int state = 42;
-	SetGlobalState(state);
-	int currentState = GetGlobalState();
+	SetLoaderGlobalState(state);
+	int currentState = GetLoaderGlobalState();
 	std::cout << state;
 	std::cout << '\n';
-	std::cout << GetGlobalState();
+	std::cout << currentState;
 
 	std::string str;
 	std::getline(std::cin, str);

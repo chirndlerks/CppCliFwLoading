@@ -11,9 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSLib\CSLib.csproj">
-      <Project>{6cdf4b61-f88e-4960-a4da-51d6270b17c2}</Project>
-    </ProjectReference>
+    <RuntimeHostConfigurationOption Include="System.Runtime.InteropServices.CppCLI.LoadComponentInIsolatedContext" Value="true" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h" />
@@ -21,12 +19,20 @@
   <ItemGroup>
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CppCliLib1\CppCliLib1.vcxproj">
+      <Project>{374eb512-53c5-4bb9-b843-bb49cdf3e37a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CppCliLib2\CppCliLib2.vcxproj">
+      <Project>{5ae24d76-47ce-49f4-ab89-173e8d251301}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
-    <ProjectGuid>{5AE24D76-47CE-49F4-AB89-173E8D251301}</ProjectGuid>
+    <ProjectGuid>{95B09974-4ABD-46AC-A203-46F35ECA039B}</ProjectGuid>
     <Keyword>NetCoreCProj</Keyword>
-    <RootNamespace>CppCliLib2</RootNamespace>
+    <RootNamespace>CppCliLoader</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
@@ -65,7 +71,7 @@
       <PreprocessorDefinitions>_DEBUG;CLIENTWRAPPER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies />
+      <AdditionalDependencies>$(OutDir)CppCliLib1.lib;$(OutDir)CppCliLib2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -74,7 +80,7 @@
       <PreprocessorDefinitions>NDEBUG;CLIENTWRAPPER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies />
+      <AdditionalDependencies>$(OutDir)CppCliLib1.lib;$(OutDir)CppCliLib2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

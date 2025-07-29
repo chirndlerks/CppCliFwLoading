@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSApp", "CSApp\CSApp.csproj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCliLib2", "CppCliLib2\CppCliLib2.vcxproj", "{5AE24D76-47CE-49F4-AB89-173E8D251301}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCliLoader", "CppCliLoader\CppCliLoader.vcxproj", "{95B09974-4ABD-46AC-A203-46F35ECA039B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -39,6 +41,10 @@ Global
 		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Debug|x64.Build.0 = Debug|x64
 		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Release|x64.ActiveCfg = Release|x64
 		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Release|x64.Build.0 = Release|x64
+		{95B09974-4ABD-46AC-A203-46F35ECA039B}.Debug|x64.ActiveCfg = Debug|x64
+		{95B09974-4ABD-46AC-A203-46F35ECA039B}.Debug|x64.Build.0 = Debug|x64
+		{95B09974-4ABD-46AC-A203-46F35ECA039B}.Release|x64.ActiveCfg = Release|x64
+		{95B09974-4ABD-46AC-A203-46F35ECA039B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

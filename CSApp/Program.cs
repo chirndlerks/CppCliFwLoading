@@ -1,6 +1,6 @@
 ﻿int state = 42;
-SetGlobalStateWrapper.Set(state);
-int currentState = GetGlobalStateWrapper.Get();
+LoaderWrapper.Set(state);
+int currentState = LoaderWrapper.Get();
 
 Console.WriteLine(state);
 Console.WriteLine(currentState);

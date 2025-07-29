@@ -11,9 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <RuntimeHostConfigurationOption Include="System.Runtime.InteropServices.CppCLI.LoadComponentInIsolatedContext" Value="true" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\CSLib\CSLib.csproj">
       <Project>{6cdf4b61-f88e-4960-a4da-51d6270b17c2}</Project>
     </ProjectReference>

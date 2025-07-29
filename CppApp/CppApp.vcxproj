@@ -56,7 +56,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>$(OutDir)CppCliLib1.lib;$(OutDir)CppCliLib2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(OutDir)CppCliLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
@@ -71,7 +71,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>$(OutDir)CppCliLib1.lib;$(OutDir)CppCliLib2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(OutDir)CppCliLoader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
@@ -82,11 +82,8 @@
     <ClCompile Include="CppApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CppCliLib1\CppCliLib1.vcxproj">
-      <Project>{374eb512-53c5-4bb9-b843-bb49cdf3e37a}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\CppCliLib2\CppCliLib2.vcxproj">
-      <Project>{5ae24d76-47ce-49f4-ab89-173e8d251301}</Project>
+    <ProjectReference Include="..\CppCliLoader\CppCliLoader.vcxproj">
+      <Project>{95b09974-4abd-46ac-a203-46f35eca039b}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
