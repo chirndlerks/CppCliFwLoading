@@ -2,10 +2,16 @@
 {
 	public static class Class1
 	{
-		public static int Test(int x)
+		static Class1()
 		{
 			SystemCollectionsImmutableCall();
-			return x * 2;
+		}
+
+		public static int MyGlobalState { get; private set; }
+
+		public static void SetGlobalState(int state)
+		{
+			MyGlobalState = state;
 		}
 
 		public static void SystemCollectionsImmutableCall()

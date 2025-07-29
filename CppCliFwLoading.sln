@@ -5,11 +5,13 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppApp", "CppApp\CppApp.vcxproj", "{06EAF416-4A2D-4A50-BDC4-3EE483FFD831}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCliLib", "CppCliLib\CppCliLib.vcxproj", "{374EB512-53C5-4BB9-B843-BB49CDF3E37A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCliLib1", "CppCliLib1\CppCliLib1.vcxproj", "{374EB512-53C5-4BB9-B843-BB49CDF3E37A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSLib", "CSLib\CSLib.csproj", "{6CDF4B61-F88E-4960-A4DA-51D6270B17C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSApp", "CSApp\CSApp.csproj", "{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCliLib2", "CppCliLib2\CppCliLib2.vcxproj", "{5AE24D76-47CE-49F4-AB89-173E8D251301}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Debug|x64.Build.0 = Debug|Any CPU
 		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Release|x64.ActiveCfg = Release|Any CPU
 		{ACD03EB7-FE67-4420-A5E5-9D65EBC7FB0A}.Release|x64.Build.0 = Release|Any CPU
+		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Debug|x64.ActiveCfg = Debug|x64
+		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Debug|x64.Build.0 = Debug|x64
+		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Release|x64.ActiveCfg = Release|x64
+		{5AE24D76-47CE-49F4-AB89-173E8D251301}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,6 +11,7 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CppCliLib\CppCliLib.vcxproj" />
+    <ProjectReference Include="..\CppCliLib1\CppCliLib1.vcxproj" />
+    <ProjectReference Include="..\CppCliLib2\CppCliLib2.vcxproj" />
   </ItemGroup>
 </Project>

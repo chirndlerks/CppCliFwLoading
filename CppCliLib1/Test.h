@@ -6,4 +6,4 @@
 #define DLLAPI  __declspec(dllimport)
 #endif
 
-extern "C" DLLAPI int MyTest(int test);
+extern "C" DLLAPI void SetGlobalState(int state);

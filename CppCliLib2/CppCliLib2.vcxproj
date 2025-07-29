@@ -11,6 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Runtime.InteropServices.CppCLI.LoadComponentInIsolatedContext" Value="true" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\CSLib\CSLib.csproj">
       <Project>{6cdf4b61-f88e-4960-a4da-51d6270b17c2}</Project>
     </ProjectReference>
@@ -24,9 +27,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
-    <ProjectGuid>{374EB512-53C5-4BB9-B843-BB49CDF3E37A}</ProjectGuid>
+    <ProjectGuid>{5AE24D76-47CE-49F4-AB89-173E8D251301}</ProjectGuid>
     <Keyword>NetCoreCProj</Keyword>
-    <RootNamespace>CppCliLib</RootNamespace>
+    <RootNamespace>CppCliLib2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
