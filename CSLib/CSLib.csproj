@@ -1,20 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <BaseOutputPath>$(SolutionDir)</BaseOutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<BaseOutputPath>$(SolutionDir)</BaseOutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Class1.cs" />
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Include="Class1.cs" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="10.0.2" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Runtime.Serialization.Formatters" Version="10.0.*" />
+	</ItemGroup>
 
 </Project>
