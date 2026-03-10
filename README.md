@@ -24,5 +24,3 @@ File name: 'D:\Git\CppCliFwLoading\Debug\System.Runtime.Serialization.Formatters
    at CSLib.Class1.Test(Int32 x) in D:\Git\CppCliFwLoading\CSLib\Class1.cs:line 9
    at MyTest(Int32 test) in D:\Git\CppCliFwLoading\CppCliLib\Test.cpp:line 4
 ```
-# Side note
-System.Collections.Immutable, Version=8.0.0.0 can be loaded without any problems in both cases.
